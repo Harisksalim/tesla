@@ -1,0 +1,623 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Background imag */
+.backgroundimage{
+    width: 100%;   
+}
+.backgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+    
+    }
+    /* Tesla logo */
+    .navlogoimage{
+        width: 250px;
+        height: 20px;
+    }
+    .navlogo_div{
+        position: absolute;
+        top:20px
+    }
+   .center_navdiv ul{
+    position: absolute;
+    top: 20px;
+    right: 450px;
+    display: flex;
+   
+   }
+   .center_navdiv ul li {
+    list-style: none;     
+   }
+   .center_navdiv ul li:hover{
+    background-color:gainsboro;
+    border-radius: 5px;
+   }
+   .center_navdiv ul li a{
+    text-decoration: none;
+    margin: 15px;
+   }
+   .right_navdiv ul{
+    display: flex;
+    position: absolute;
+    top:20px;
+    right: 60px;
+   }
+   .right_navdiv ul li {
+    list-style: none;     
+   }
+   .right_navdiv ul li:hover{
+    background-color:gainsboro;
+    border-radius: 5px;
+   }
+   .right_navdiv ul li a{
+    text-decoration: none;
+    margin: 15px;
+   }
+   .content_box h1{
+    position: absolute;
+    top:224px;
+    right: 560px;
+   }
+   .content_box h2{
+    position: absolute;
+    top:266px;
+    right: 548px;
+   }
+   .content_box p{
+    position: absolute;
+    top:297px;
+    right: 498px;
+   }
+   .orderbtn{
+    position: absolute;
+    top:550px;
+    right:630px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 60px;
+
+   }
+   
+   .demobtn{
+    position: absolute;
+    top:550px;
+    right:355px ;
+    text-decoration: none;
+   
+    background-color:grey;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 75px;
+   }
+   .content_box2 p{
+    position: absolute;
+    top:600px;
+    right: 355px;
+   }
+   .content_box2 a{
+    position: absolute;
+    top:620px;
+    right: 525px;
+    color: black;
+   }
+   .secondbackgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+   }
+   .secondbackgroundimg{
+    width: 100%;
+   }
+   .secondcontentbox1{
+    position: relative;
+    
+   }
+   .secondcontentbox1 h1{
+    position: absolute;
+    top: -447px;
+    left: 586px;
+   }
+   .secondcontentbox1 h2{
+    position: absolute;
+    top: -400px;
+    left: 560px;
+   }
+   .secondcontentbox1 p{
+    position: absolute;
+    top: -360px;
+    left: 515px;
+   }
+  
+   .secondcontainer{
+    position:relative;
+    
+   }
+   .secondorderbtn{
+    position: absolute;
+    top:550px;
+    right:630px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 60px;
+   }
+   .seconddemobtn{
+    position: absolute;
+    top:550px;
+    right:355px ;
+    text-decoration: none;
+   
+    background-color:grey;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 75px;
+   }
+   .secondcontent_box2 p{
+    position: absolute;
+    top:600px;
+    right: 380px;
+   }
+   .secondcontent_box2 a{
+    position: absolute;
+    top:600px;
+    right: 305px;
+    color: black;
+   }
+   .thirdbackgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+   }
+   .thirdbackgroundimg{
+    width: 100%;
+   }
+   .thirdcontainer{
+    position: relative;
+   }
+   .thirdcontentbox1 h1{
+    position: absolute;
+    top:220px;
+    right: 548px;
+   }
+   .thirdcontentbox1 h2{
+    position: absolute;
+    top:260px;
+    right: 530px;
+   }
+   .thirdcontentbox1 p{
+    position: absolute;
+    top:290px;
+    right: 455px;
+   }
+   .thirdorderbtn{
+    position: absolute;
+    top:550px;
+    right:630px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 60px;
+   }
+   .thirddemobtn{
+    position: absolute;
+    top:550px;
+    right:355px ;
+    text-decoration: none;
+   
+    background-color:grey;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 75px;
+   }
+
+   .thirdcontentbox2 p{
+    position: absolute;
+    top:600px;
+    right: 330px;
+    color: #fff;
+   }
+   .thirdcontentbox2 a{
+    position: absolute;
+    top:620px;
+    right: 550px;
+    color:#fff;
+   }
+   
+   .fourthbackgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+   }
+   .fourthbackgroundimg{
+    width: 100%;
+   }
+   .fourthcontainer{
+    position: relative;
+   }
+   .fourthcontentbox1 h1{
+    position: absolute;
+    top:220px;
+    right: 548px;
+   }
+   .fourthcontentbox1 h2{
+    position: absolute;
+    top:260px;
+    right: 530px;
+   }
+   .fourthcontentbox1 p{
+    position: absolute;
+    top:290px;
+    right: 540px;
+   }
+
+   .fourthorderbtn{
+    position: absolute;
+    top:550px;
+    right:630px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 60px;
+   }
+   .fourthdemobtn{
+    position: absolute;
+    top:550px;
+    right:355px ;
+    text-decoration: none;
+   
+    background-color:rgb(78, 76, 76);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 75px;
+   }
+
+   .fourthcontentbox2 p{
+    position: absolute;
+    top:600px;
+    right: 360px;
+    color: black;
+   }
+   .fourthcontentbox2 a{
+    position: absolute;
+    top:620px;
+    right: 550px;
+    color:black;
+   }
+   .fifthcontainer{
+    position: relative;
+   }
+   .fifthbackgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+   }
+   .fifthbackgroundimg{
+    width: 100%;
+   }
+
+   
+   .fifthorderbtn{
+    position: absolute;
+    top:550px;
+    right:630px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 60px;
+   }
+   .fifthdemobtn{
+    position: absolute;
+    top:550px;
+    right:355px ;
+    text-decoration: none;
+   
+    background-color:rgb(78, 76, 76);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 75px;
+   }
+
+   .sixthcontainer{
+    position: relative;
+   }
+   .sixthbackgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+   }
+   .sixthbackgroundimg{
+    width: 100%;
+   }
+   .sixthcontainer{
+    position: relative;
+   }
+   .sixthcontentbox1 h1{
+    color: #fff;
+    position: absolute;
+    top: 155px;
+    left: 493px
+   }
+   .sixthcontentbox1 a{
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 209px;
+    left: 476px;
+   }
+
+      
+   .sixthorderbtn{
+    position: absolute;
+    top:550px;
+    right:630px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 60px;
+   }
+   .sixthdemobtn{
+    position: absolute;
+    top:550px;
+    right:355px ;
+    text-decoration: none;
+   
+    background-color:rgb(78, 76, 76);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 75px;
+   }
+
+   .seventhcontainer{
+    position: relative;
+   }
+   .seventhbackgroundimg{
+    width: 100%;
+   }
+   .seventhbackgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+   }
+
+   .seventhcontentbox1 h1{
+    color: black;
+    position: absolute;
+    top: 155px;
+    left: 493px
+   }
+   .seventhcontentbox1 a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    top: 209px;
+    left: 450px;
+   }
+
+   .seventhorderbtn{
+    position: absolute;
+    top:550px;
+    right:630px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 60px;
+   }
+   .seventhdemobtn{
+    position: absolute;
+    top:550px;
+    right:355px ;
+    text-decoration: none;
+   
+    background-color:rgb(78, 76, 76);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 75px;
+   }
+
+   .eighthcontainer{
+    position: relative;
+   }
+   .eighthbackgroundimg{
+    width: 100%;
+   }
+   .eighthbackgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+   }
+   .eighthcontentbox1 h1{
+    color: black;
+    position: absolute;
+    top: 161px;
+    left: 561px;
+    font-size: 35px;
+    
+   }
+
+   .eighthorderbtn{
+    position: absolute;
+    top:550px;
+    right:630px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 60px;
+   }
+   .eighthdemobtn{
+    position: absolute;
+    top:550px;
+    right:355px ;
+    text-decoration: none;
+   
+    background-color:rgb(78, 76, 76);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 75px;
+   }
+   .ninthcontainer{
+    position: relative;
+   }
+   .ninthbackgroundimg{
+    width: 100%;
+   }
+   .ninththbackgroundimg_div{
+    width: 100%;
+    height: 650px; 
+    overflow: hidden;
+   }
+   .ninthcontentbox1 h1{
+    color: black;
+    position: absolute;
+    top: 161px;
+    left: 561px;
+    font-size: 35px;
+   }
+   .ninthorderbtn{
+    position: absolute;
+    top:550px;
+    right:525px ;
+    text-decoration: none;
+   
+    background-color: azure;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    width: 15rem;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 80px;
+   }
+   .footerdiv{
+    
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top:725px;
+    
+   }
+   
+   .footerdiv h6{
+    color: white;
+    margin: 40px;
+   
+   }
+  
+   .copyrightimg{
+    width: 15px;
+    height: 15px;
+    margin-top: 36px;
+   }
+   .footerbox{
+    display: flex;
+    margin-left: 170px;
+    font-size: 20px;
+    margin-top: -11px;
+    
+   }
+   
+  
+
